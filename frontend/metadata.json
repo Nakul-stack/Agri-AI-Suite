@@ -1,0 +1,5 @@
+{
+  "name": "Agri-AI Suite",
+  "description": "An intelligent farming assistant providing crop recommendations, fertilizer optimization, and pest/disease detection using AI to help farmers make informed decisions and improve crop yield.",
+  "requestFramePermissions": []
+}

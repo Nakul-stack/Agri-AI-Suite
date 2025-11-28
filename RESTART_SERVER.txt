@@ -1,0 +1,18 @@
+============================================================
+STATIC FILES FIXED - RESTART SERVER
+============================================================
+
+I've fixed the CSS and JavaScript file serving issue.
+
+ACTION REQUIRED:
+1. Go to the terminal where the server is running
+2. Press Ctrl+C to stop it
+3. Run again: python server.py
+   OR double-click: START_AI.bat
+
+After restarting, refresh your browser (Ctrl+F5 or F5)
+
+The form should now work and show results when you submit!
+
+============================================================
+

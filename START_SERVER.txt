@@ -1,0 +1,60 @@
+============================================================
+CROP RECOMMENDATION AI - SERVER STARTUP GUIDE
+============================================================
+
+STEP 1: Start the Server
+-------------------------
+Open a terminal/command prompt in this folder and run:
+
+    python server.py
+
+You should see:
+    ============================================================
+    Crop Recommendation AI - Direct Model Server
+    ============================================================
+    Frontend + AI Model Integrated
+    ============================================================
+    Model loaded successfully!
+    Model: RandomForest
+    Accuracy: 0.9955
+    ============================================================
+    Starting server...
+    Local access: http://localhost:5000
+    Network access: http://10.12.98.248:5000
+    Network access: http://172.16.0.2:5000
+
+STEP 2: Access the AI
+---------------------
+Open your web browser and go to:
+
+    PRIMARY IP (Recommended):
+    http://10.12.98.248:5000
+
+    SECONDARY IP:
+    http://172.16.0.2:5000
+
+    LOCAL (Same Computer Only):
+    http://localhost:5000
+
+STEP 3: Test the AI
+-------------------
+1. Fill in the form with soil and climate data
+2. Click "Get Recommendation"
+3. View the AI's crop recommendation with confidence scores
+
+TEST ENDPOINTS:
+- Health Check: http://10.12.98.248:5000/health
+- Model Info: http://10.12.98.248:5000/api/model/info
+- Web Interface: http://10.12.98.248:5000
+
+============================================================
+IMPORTANT NOTES:
+============================================================
+1. The server MUST be running (python server.py) for the AI to work
+2. Keep the terminal window open while using the AI
+3. Press Ctrl+C to stop the server
+4. The AI model is already trained and ready to use
+5. Model Accuracy: 99.55%
+
+============================================================
+
