@@ -195,18 +195,6 @@ The system provides:
 - **Top Influencing Factors**: The top 3 most important features
 - **Insights**: Automated insights based on input parameters
 
-## Next Steps
 
-This is Module 1 of 3:
-1. ✅ **Crop Recommendation & Selection** (Current)
-2. ⏳ Pest Forecasting / Pest & Disease Detection
-3. ⏳ Fertilizer Optimization / Soil & Nutrient Management
 
-## License
-
-[Add your license here]
-
-## Author
-
-[Add your name/team here]
 
