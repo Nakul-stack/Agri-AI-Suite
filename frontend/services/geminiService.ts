@@ -71,8 +71,12 @@ export const getFertilizerRecommendation = async (data: FertilizerData): Promise
 
 export const detectPestOrDisease = async (imageB64: string, mimeType: string): Promise<string> => {
     const apiKey = (import.meta as any).env?.VITE_GEMINI_API_KEY || (window as any).GEMINI_API_KEY;
-    if (!apiKey) {
-        throw new Error('Gemini API key not configured. Set VITE_GEMINI_API_KEY in .env.local');
+    if (!apiKey || apiKey === 'YOUR_API_KEY_HERE') {
+        throw new Error(
+            'Gemini API key not configured or expired. ' +
+            'Please set VITE_GEMINI_API_KEY in frontend/.env.local file. ' +
+            'Get your API key from: https://aistudio.google.com/app/apikey'
+        );
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
